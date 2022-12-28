@@ -11,7 +11,7 @@ if (value == "abc"){
 	};
 } else {
 	return {
-		status: 200;
-		"msg": "正確"
+		status: 400;
+		"msg": "錯誤"
 	};
 }
